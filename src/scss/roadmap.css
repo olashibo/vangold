@@ -1,0 +1,1975 @@
+.roadmap {
+  background-color: black;
+}
+
+.roadmap .header {
+  background: #0b0d17;
+  -webkit-box-shadow: 0px 1px 0px #e5e9f2;
+          box-shadow: 0px 1px 0px #e5e9f2;
+  z-index: 6;
+  position: relative;
+}
+
+.roadmap .header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px 0;
+}
+
+.roadmap .header .container .l-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.roadmap .header .container .l-div span {
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffc526;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.roadmap .header .container .r-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.roadmap .header .container .r-div .a1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.roadmap .header .container .r-div .link-wrap {
+  position: relative;
+}
+
+.roadmap .header .container .r-div .link-wrap .a1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.roadmap .header .container .r-div .link-wrap #individual-menu {
+  width: 185px;
+}
+
+.roadmap .header .container .r-div .link-wrap .doc-menu {
+  left: -27% !important;
+}
+
+.roadmap .header .container .r-div .link-wrap .markets {
+  left: -115% !important;
+}
+
+.roadmap .header .container .r-div .link-wrap .link-menu {
+  position: absolute;
+  top: 35px;
+  left: -60%;
+  background: linear-gradient(139.38deg, rgba(65, 70, 83, 0.4) 13.51%, rgba(56, 61, 74, 0.1) 86.74%);
+  -webkit-box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+          box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap .header .container .r-div .link-wrap .link-menu .active {
+  background: linear-gradient(139.38deg, rgba(109, 118, 142, 0.4) 13.51%, rgba(109, 118, 142, 0.1) 86.74%);
+  -webkit-box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+          box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 8px;
+  color: #ffc526;
+}
+
+.roadmap .header .container .r-div .link-wrap .link-menu .stake-p {
+  width: 136px;
+}
+
+.roadmap .header .container .r-div .link-wrap .link-menu a {
+  padding: 15px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.7px;
+  color: white;
+}
+
+.roadmap .header .container .r-div .link-wrap .link-menu a:hover {
+  background: linear-gradient(139.38deg, rgba(109, 118, 142, 0.4) 13.51%, rgba(109, 118, 142, 0.1) 86.74%);
+  -webkit-box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+          box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 8px;
+  color: #ffc526;
+}
+
+.roadmap .header .container .r-div .join-btn {
+  padding: 10px 20px;
+  background: #ffc526;
+  border-radius: 6px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.roadmap .main-content .sec1 {
+  position: relative;
+  padding: 60px 0 75px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap .main-content .sec1 .toggle-wrap {
+  z-index: 2;
+  position: absolute;
+  top: 52px;
+  right: 55px;
+}
+
+.roadmap .main-content .sec1 .toggle-wrap .click-wrap {
+  position: absolute;
+  top: -63px;
+  left: 51%;
+  padding: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap .main-content .sec1 .toggle-wrap .click-wrap img {
+  position: absolute;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .toggle-wrap .click-wrap span {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  font-size: 12px;
+  color: #4f4f4f;
+  margin-top: 8px;
+}
+
+.roadmap .main-content .sec1 .bg-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.roadmap .main-content .sec1 .row1,
+.roadmap .main-content .sec1 .row2,
+.roadmap .main-content .sec1 .row3,
+.roadmap .main-content .sec1 .row4,
+.roadmap .main-content .sec1 .line1,
+.roadmap .main-content .sec1 .line2,
+.roadmap .main-content .sec1 .line3,
+.roadmap .main-content .sec1 .line4,
+.roadmap .main-content .sec1 .line5 {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap .main-content .sec1 .line1 {
+  margin-left: 14%;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  height: 85%;
+}
+
+.roadmap .main-content .sec1 .loc-icon {
+  cursor: pointer;
+}
+
+.roadmap .main-content .sec1 .row1-wrap {
+  position: relative;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+  position: relative;
+  left: 53%;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .row1 span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffc526;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .click-wrap {
+  position: absolute;
+  top: -63px;
+  right: 22%;
+  padding: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .click-wrap img {
+  position: absolute;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .click-wrap span {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  font-size: 12px;
+  color: #4f4f4f;
+  margin-top: 8px;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .menu1-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  width: 525px;
+  position: absolute;
+  left: -54%;
+  top: 140%;
+  z-index: 5;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .menu1-wrap .p-wrap {
+  background: url("./img/menu-one.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .menu1-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .row1-wrap .menu1-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap {
+  position: relative;
+  left: 50%;
+  top: -30px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .line2 {
+  position: relative;
+  top: 42px;
+  left: 5px;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap {
+  position: absolute;
+  left: -111%;
+  top: -96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffc526;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap .menu7-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  width: 525px;
+  position: absolute;
+  left: -18%;
+  top: 140%;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap .menu7-wrap .p-wrap {
+  background: url("./img/menu7.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap .menu7-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .left-icon-wrap .menu7-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .menu2-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  max-width: 525px;
+  position: absolute;
+  left: -105%;
+  top: 58%;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .menu2-wrap .p-wrap {
+  background: url("./img/menu2.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .menu2-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .img-icon2-wrap .menu2-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap {
+  position: relative;
+  left: 64%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 1;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap .line3 {
+  margin-top: 11px;
+  position: relative;
+  left: -19px;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap .menu3-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  max-width: 525px;
+  position: absolute;
+  left: -50%;
+  top: -2%;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap .menu3-wrap .p-wrap {
+  background: url("./img/menu3.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap .menu3-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .img-icon3-wrap .menu3-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .img1 {
+  position: relative;
+  top: 10px;
+  right: 23%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .line4 {
+  margin-top: 32px;
+  position: relative;
+  left: 26%;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap img {
+  z-index: 1;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .menu4-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  max-width: 525px;
+  position: absolute;
+  left: -73%;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .menu4-wrap .p-wrap {
+  background: url("./img/menu4.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .menu4-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .img-icon4-wrap .menu4-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  left: 32%;
+  top: 15px;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 1;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap .line5 {
+  margin-top: 7px;
+  position: relative;
+  right: 10%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  height: 84%;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap .menu5-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  max-width: 525px;
+  position: absolute;
+  left: -49%;
+  top: -2%;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap .menu5-wrap .p-wrap {
+  background: url("./img/menu5.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap .menu5-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .img-icon5-wrap .menu5-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .main-content .sec1 .last-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: 17%;
+  top: -5px;
+}
+
+.roadmap .main-content .sec1 .last-img img {
+  z-index: 1;
+}
+
+.roadmap .main-content .sec1 .last-img .menu6-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 24px;
+  gap: 24px;
+  max-width: 525px;
+  position: absolute;
+  left: -38%;
+  top: -807%;
+  z-index: 2;
+}
+
+.roadmap .main-content .sec1 .last-img .menu6-wrap .p-wrap {
+  background: url("./img/menu6.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  padding-left: 105px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.roadmap .main-content .sec1 .last-img .menu6-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333333;
+}
+
+.roadmap .main-content .sec1 .last-img .menu6-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 21px;
+  width: 100%;
+}
+
+.roadmap .footer {
+  background: #0b0d17;
+  color: white;
+  position: relative;
+}
+
+.roadmap .footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.roadmap .footer ul li {
+  background: #151820;
+}
+
+.roadmap .footer .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.2fr 1fr 1fr 1fr;
+      grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 90px;
+  padding: 65px 0px;
+  z-index: 6;
+  position: relative;
+}
+
+.roadmap .footer .container .col1 .brand-wrap {
+  margin-bottom: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  z-index: 6;
+}
+
+.roadmap .footer .container .col1 .brand-wrap span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffc526;
+}
+
+.roadmap .footer .container .col1 .p1 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.roadmap .footer .container .col1 .p2 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.roadmap .footer .container .col1 .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roadmap .footer .container .col1 .socials .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #252a3a;
+  position: relative;
+  cursor: pointer;
+  position: relative;
+  z-index: 6;
+}
+
+.roadmap .footer .container .col1 .socials .circle img {
+  position: absolute;
+  cursor: pointer;
+}
+
+.roadmap .footer .container .col2 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap .footer .container .col2 h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap .footer .container .col2 .links {
+  display: -ms-grid;
+  display: grid;
+  gap: 12px;
+  -ms-grid-rows: (max-content)[5];
+      grid-template-rows: repeat(5, -webkit-max-content);
+      grid-template-rows: repeat(5, max-content);
+}
+
+.roadmap .footer .container .col2 .links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap .footer .container .col3 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap .footer .container .col3 h6 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.roadmap .footer .container .col3 .links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (max-content)[4];
+      grid-template-rows: repeat(4, -webkit-max-content);
+      grid-template-rows: repeat(4, max-content);
+  gap: 12px;
+}
+
+.roadmap .footer .container .col3 .links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap .footer .container .col4 h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap .footer .container .col4 a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap .footer .e-input {
+  padding: 9px 12px;
+  min-width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffc52633;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: text;
+  z-index: 6;
+  position: relative;
+}
+
+.roadmap .footer .e-input input {
+  width: 100%;
+  background: transparent;
+  color: #ffc526;
+  border: none;
+}
+
+.roadmap .footer .e-input input::-webkit-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap .footer .e-input input:-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap .footer .e-input input::-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap .footer .e-input input::placeholder {
+  color: #ffc526;
+}
+
+.roadmap .footer .e-input img {
+  cursor: pointer;
+}
+
+.roadmap-mobile {
+  background-color: black;
+  display: none;
+}
+
+.roadmap-mobile .header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  z-index: 4;
+}
+
+.roadmap-mobile .header .container .l-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.roadmap-mobile .header .container .l-div span {
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffc526;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.roadmap-mobile .header .container .r-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.roadmap-mobile .header .container .r-div .join-btn {
+  padding: 9px 17px;
+  background: #ffc526;
+  border-radius: 2px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.roadmap-mobile .header .container .r-div img {
+  cursor: pointer;
+}
+
+.roadmap-mobile .main-content .sec1 {
+  position: relative;
+  padding: 30px 0 75px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.roadmap-mobile .main-content .sec1 .toggle-wrap {
+  z-index: 2;
+  position: absolute;
+  top: 36px;
+  right: 20px;
+}
+
+.roadmap-mobile .main-content .sec1 .toggle-wrap .click-wrap {
+  position: absolute;
+  top: -35px;
+  left: 51%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap-mobile .main-content .sec1 .toggle-wrap .click-wrap img {
+  position: absolute;
+  z-index: 2;
+}
+
+.roadmap-mobile .main-content .sec1 .toggle-wrap .click-wrap span {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  font-size: 6px;
+  color: #4f4f4f;
+  margin-top: 7px;
+}
+
+.roadmap-mobile .main-content .sec1 .bg-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .row1,
+.roadmap-mobile .main-content .sec1 .row2,
+.roadmap-mobile .main-content .sec1 .row3,
+.roadmap-mobile .main-content .sec1 .row4,
+.roadmap-mobile .main-content .sec1 .line1,
+.roadmap-mobile .main-content .sec1 .line2,
+.roadmap-mobile .main-content .sec1 .line3,
+.roadmap-mobile .main-content .sec1 .line4,
+.roadmap-mobile .main-content .sec1 .line5 {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap-mobile .main-content .sec1 .line1 {
+  margin-left: 7%;
+  margin-top: 4px;
+  margin-bottom: 11px;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+  height: 89%;
+}
+
+.roadmap-mobile .main-content .sec1 .loc-icon {
+  cursor: pointer;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap {
+  position: relative;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  gap: 7px;
+  position: relative;
+  right: 42%;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .row1 span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  color: #ffc526;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .click-wrap {
+  position: absolute;
+  top: -29px;
+  right: 29%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .click-wrap img {
+  position: absolute;
+  z-index: 2;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .click-wrap span {
+  position: relative;
+  z-index: 3;
+  font-weight: 800;
+  font-size: 6px;
+  color: #4f4f4f;
+  margin-top: 7px;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .menu1-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  right: -52px;
+  top: 136%;
+  z-index: 8;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .menu1-wrap .p-wrap {
+  background: url("./img/menu-one.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .menu1-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .row1-wrap .menu1-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 {
+  position: relative;
+  z-index: 7;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap {
+  position: absolute;
+  left: -17%;
+  bottom: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 7px;
+  gap: 7px;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  color: #ffc526;
+  position: relative;
+  top: -24px;
+  left: -43%;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap .menu7-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  left: -23%;
+  top: 144%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap .menu7-wrap .p-wrap {
+  background: url("./img/menu7.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap .menu7-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .row2 .left-icon-wrap .menu7-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap {
+  position: relative;
+  left: 50%;
+  top: -6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap .line2 {
+  position: relative;
+  top: 27px;
+  left: -3px;
+  width: 51%;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap .menu2-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  right: 33px;
+  top: 88%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap .menu2-wrap .p-wrap {
+  background: url("./img/menu2.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap .menu2-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon2-wrap .menu2-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap {
+  position: relative;
+  left: 13%;
+  top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .icon {
+  position: relative;
+  left: 5px;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .line3 {
+  margin-top: 12px;
+  position: relative;
+  left: 10px;
+  height: 80%;
+  -webkit-transform: rotate(-11deg);
+          transform: rotate(-11deg);
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .menu3-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  left: -30%;
+  top: 16%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .menu3-wrap .p-wrap {
+  background: url("./img/menu3.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .menu3-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon3-wrap .menu3-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .img1 {
+  position: relative;
+  top: 28px;
+  right: 34%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .line4 {
+  margin-top: 38px;
+  position: relative;
+  left: -3px;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap img {
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .menu4-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  left: -23%;
+  top: 24%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .menu4-wrap .p-wrap {
+  background: url("./img/menu4.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .menu4-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon4-wrap .menu4-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  left: -6px;
+  top: 8px;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap .line5 {
+  margin-top: 10px;
+  position: relative;
+  right: 0%;
+  -webkit-transform: rotate(-13deg);
+          transform: rotate(-13deg);
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap .menu5-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  left: -6%;
+  top: -130%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap .menu5-wrap .p-wrap {
+  background: url("./img/menu5.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap .menu5-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .img-icon5-wrap .menu5-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: -13px;
+  top: 17px;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img img {
+  z-index: 1;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img .menu6-wrap {
+  display: -ms-grid;
+  display: grid;
+  gap: 16px;
+  width: 280px;
+  position: absolute;
+  left: -34%;
+  bottom: 166%;
+  z-index: 5;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img .menu6-wrap .p-wrap {
+  background: url("./img/menu6.png") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 19px;
+  padding-left: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img .menu6-wrap .p-wrap .p1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: inherit;
+  color: #333333;
+}
+
+.roadmap-mobile .main-content .sec1 .last-img .menu6-wrap button {
+  background: #ffc526;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  width: 100%;
+}
+
+.roadmap-mobile .footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 80px;
+  padding: 0 20px 40px;
+  color: white;
+  z-index: 6;
+  position: relative;
+}
+
+.roadmap-mobile .footer .container h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .e-input {
+  padding: 9px 12px;
+  width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffc52633;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: text;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .e-input input {
+  width: 100%;
+  background: transparent;
+  color: #ffc526;
+  border: none;
+}
+
+.roadmap-mobile .footer .container .e-input input::-webkit-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .e-input input:-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .e-input input::-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .e-input input::placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .e-input img {
+  cursor: pointer;
+}
+
+.roadmap-mobile .footer .container .col1 .brand-wrap {
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.roadmap-mobile .footer .container .col1 .brand-wrap span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .col1 h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .col1 a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input {
+  padding: 9px 12px;
+  min-width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffc52633;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: text;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input input {
+  width: 100%;
+  background: transparent;
+  color: #ffc526;
+  border: none;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input input::-webkit-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input input:-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input input::-ms-input-placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input input::placeholder {
+  color: #ffc526;
+}
+
+.roadmap-mobile .footer .container .col1 .e-input img {
+  cursor: pointer;
+}
+
+.roadmap-mobile .footer .container .col1 .p1 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.roadmap-mobile .footer .container .col1 .p2 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .col1 .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roadmap-mobile .footer .container .col1 .socials .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #252a3a;
+  position: relative;
+}
+
+.roadmap-mobile .footer .container .col1 .socials .circle img {
+  position: absolute;
+}
+
+.roadmap-mobile .footer .container .col2 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap-mobile .footer .container .col2 h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .col2 .links {
+  display: -ms-grid;
+  display: grid;
+  gap: 12px;
+}
+
+.roadmap-mobile .footer .container .col2 .links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap-mobile .footer .container .col3 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap-mobile .footer .container .col3 h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.roadmap-mobile .footer .container .col3 .links {
+  display: -ms-grid;
+  display: grid;
+  gap: 12px;
+}
+
+.roadmap-mobile .footer .container .col3 .links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.roadmap-mobile .menu {
+  width: 100%;
+  color: white;
+  height: 100vh;
+  background: linear-gradient(139.38deg, rgba(65, 70, 83, 0.4) 13.51%, rgba(56, 61, 74, 0.1) 86.74%);
+  -webkit-box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+          box-shadow: 0px 4px 24px -1px rgba(21, 24, 32, 0.2);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  z-index: 4;
+  position: relative;
+}
+
+.roadmap-mobile .menu .a1 {
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 16px;
+}
+
+.roadmap-mobile .menu .menu-wrap {
+  padding: 24px 20px;
+}
+
+.roadmap-mobile .menu .menu-wrap .a1 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.roadmap-mobile .menu .menu-wrap .menu-items {
+  display: -ms-grid;
+  display: grid;
+}
+
+.roadmap-mobile .menu .menu-wrap .menu-items a {
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.roadmap-mobile .menu .menu-wrap .menu-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.roadmap-mobile .menu .menu-wrap .menu-head p {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.roadmap-mobile .menu .menu-wrap button {
+  color: #ffffff;
+  background-color: #ffc526;
+  padding: 16px 80px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+.roadmap-mobile .menu .menu-wrap a {
+  font-size: 14px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 1237px) {
+  .roadmap .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media (max-width: 895px) {
+  .roadmap-mobile {
+    display: block;
+  }
+  .roadmap {
+    display: none;
+  }
+}
+/*# sourceMappingURL=roadmap.css.map */

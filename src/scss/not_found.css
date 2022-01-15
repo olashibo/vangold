@@ -1,0 +1,56 @@
+.not-found-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #192e46;
+  text-align: center;
+  line-height: 1;
+}
+
+.not-found-wrapper .not-found {
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.not-found-code {
+  font-size: 115px;
+  margin-bottom: 1rem;
+}
+
+.not-found-message {
+  font-size: 30px;
+  margin-bottom: 4rem;
+}
+
+.not-found-description {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #657689;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.not-found-description span a {
+  color: #fb775a;
+  font-weight: 600;
+}
+
+.not-found-description span a:hover {
+  text-decoration: underline;
+}
+
+.not-found-home-icon path {
+  stroke: #192e46;
+}
+/*# sourceMappingURL=not_found.css.map */
